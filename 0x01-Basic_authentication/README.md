@@ -7,17 +7,17 @@ This project contains tasks for learning to authenticate a user using the Basic 
 + [x] 0. **Simple-basic-API**
   + Setup and start server:
     ```powershell
-    Abinet@DESKTOP-UVCGKN1:~$ pip3 install -r requirements.txt
+    zelalem@DESKTOP-UVCGKN1:~$ pip3 install -r requirements.txt
     ...
-    Abinet@DESKTOP-UVCGKN1:~$
-    Abinet@DESKTOP-UVCGKN1:~$ API_HOST=0.0.0.0 API_PORT=5000 python3 -m api.v1.app
+    zelalem@DESKTOP-UVCGKN1:~$
+    zelalem@DESKTOP-UVCGKN1:~$ API_HOST=0.0.0.0 API_PORT=5000 python3 -m api.v1.app
      * Serving Flask app "app" (lazy loading)
     ...
     Abinet@DESKTOP-UVCGKN1:~$
     ```
   + Use the API (in another tab or in your browser):
     ```powershell
-    Abinet@DESKTOP-UVCGKN1:~$ curl "http://0.0.0.0:5000/api/v1/status" -vvv
+    zelalem@DESKTOP-UVCGKN1:~$ curl "http://0.0.0.0:5000/api/v1/status" -vvv
     *   Trying 0.0.0.0...
     * TCP_NODELAY set
     * Connected to 0.0.0.0 (127.0.0.1) port 5000 (#0)
